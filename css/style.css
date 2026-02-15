@@ -40,9 +40,56 @@ div.slider>img:nth-of-type(2):hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 svg {
   vector-effect: non-scaling-stroke;
 }
+
+@media (max-width: 768px) {
+  .responsive-svg {
+    width: 95vw;
+  }
+}
+
+.responsive-svg {
+  width: min(90vw, 800px);
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
