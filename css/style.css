@@ -194,7 +194,7 @@ body {
 
 
 /* Background styling */
-.main {
+main {
   background: linear-gradient(135deg, #111, #333);
   color: white;
 }
